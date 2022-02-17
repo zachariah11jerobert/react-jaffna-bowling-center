@@ -1,0 +1,27 @@
+.games-container {
+  max-width: 440px;
+  height: 200px;
+  display: block;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .game-info {
+    background-color: rgb(3, 10, 102);
+    width: 40%;
+    height: 50px;
+    border-bottom-left-radius: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    h3 {
+      color: #fff;
+    }
+  }
+}
