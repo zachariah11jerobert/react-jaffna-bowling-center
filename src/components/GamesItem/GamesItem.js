@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./games-item.scss";
 
 const GamesItem = ({ image, info }) => {
@@ -17,7 +18,9 @@ const GamesItem = ({ image, info }) => {
       </div>
       <div className="game-bottom">
         {/* <button>Book Now</button> */}
-        <span className="tiles bg-theme-orange">Book Now</span>
+        <span className="tiles bg-theme-orange">
+          <Link to="/booknow">Book Now</Link>
+        </span>
       </div>
     </div>
   );

@@ -52,11 +52,17 @@ code {
   flex: 0.8;
 }
 
+.mt-2 {
+  margin-top: 2px;
+}
+.ml-2 {
+  margin-left: 2px;
+}
 .pr-10 {
   padding-right: 10px;
 }
 
-.pl-20{
+.pl-20 {
   padding-left: 20px !important;
 }
 
@@ -64,6 +70,10 @@ code {
   background-color: #ed1b24;
 }
 
-.bg-theme-orange{
+.bg-theme-orange {
   background-color: #f9a83d;
+}
+
+.bg-gray{
+  background-color: #e7e8ea;
 }
