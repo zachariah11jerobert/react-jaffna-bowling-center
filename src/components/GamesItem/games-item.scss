@@ -1,5 +1,5 @@
 .games-container {
-  margin-top: 10px;
+  margin-top: 20px;
   max-width: 440px;
   height: 240px;
   display: block;
@@ -7,13 +7,14 @@
 
   img {
     width: 100%;
+    height: 180px;
   }
 
   .overlay {
     position: absolute;
     background-color: #053c514d;
     max-width: 440px;
-    width: 440px;
+    width: 100%;
     height: 200px;
     left: 0px;
     top: 0px;
@@ -21,13 +22,13 @@
   }
 
   .game-top {
-    background-color: #f9a83d;
-    height: 40px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
 
     h3 {
       color: #fff;
+      font-weight: 500;
     }
 
     .game-top-left {
@@ -45,17 +46,25 @@
     }
   }
 
-  .game-botom {
-    z-index: 20;
-    background-color: #053c51;
-    width: 40%;
-    height: 50px;
-    border-top-right-radius: 40px;
+  .game-bottom {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
+    background-color: #053c51;
+    width: 100%;
+    height: 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    .tiles {
+      width: 80px;
+      border-bottom-right-radius: 40px;
+      color: #fff;
+      height: inherit;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
   }
 }
