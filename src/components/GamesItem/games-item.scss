@@ -1,4 +1,5 @@
 .games-container {
+  margin-top: 10px;
   max-width: 440px;
   height: 240px;
   display: block;
@@ -6,10 +7,6 @@
 
   img {
     width: 100%;
-    z-index: -10;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
   }
 
   .overlay {
@@ -23,21 +20,42 @@
     z-index: 10;
   }
 
-  .game-info {
-    z-index: 20;
-    background-color: #053c51;
-    width: 40%;
-    height: 50px;
-    border-top-left-radius: 40px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+  .game-top {
+    background-color: #f9a83d;
+    height: 40px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
 
     h3 {
       color: #fff;
     }
+
+    .game-top-left {
+      width: 60%;
+      height: inherit;
+    }
+
+    .game-top-right {
+      background-color: #053c51;
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      border-top-left-radius: 40px;
+    }
+  }
+
+  .game-botom {
+    z-index: 20;
+    background-color: #053c51;
+    width: 40%;
+    height: 50px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 }

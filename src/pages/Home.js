@@ -4,18 +4,17 @@ import Hero from "../components/Hero/Hero";
 function Home() {
   return (
     <>
+      <section id="section-call-now">
+        <div className="bg-theme-red ">
+          <h3>Call for Details : 0774441916</h3>
+        </div>
+      </section>
       <section id="courousel">
         <Hero />
       </section>
-      <section id="book-now">
-        <div className="d-flex flex-row jc-spacearound">
-          <div>Badminton</div>
-          <div>Table Tennis</div>
-          <div>Bowling</div>
-        </div>
-      </section>
+
       <section id="games-section">
-        <GamesContainer/>
+        <GamesContainer />
       </section>
     </>
   );
