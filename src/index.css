@@ -35,6 +35,9 @@ code {
 .jc-spacearound {
   justify-content: space-around;
 }
+.jc-end {
+  justify-content: flex-end;
+}
 
 .flex-2 {
   flex: 0.2;
@@ -57,6 +60,17 @@ code {
 }
 .ml-2 {
   margin-left: 2px;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.mr-20 {
+  margin-right: 20px !important;
 }
 .pr-10 {
   padding-right: 10px;
