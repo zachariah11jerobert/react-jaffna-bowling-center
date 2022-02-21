@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-jaffna-bowling-center/static/css/main.f4fb9d88.css",
+    "main.js": "/react-jaffna-bowling-center/static/js/main.41b6f241.js",
+    "static/js/787.fc7a0df7.chunk.js": "/react-jaffna-bowling-center/static/js/787.fc7a0df7.chunk.js",
+    "static/media/badminton.jpg": "/react-jaffna-bowling-center/static/media/badminton.7152438495f213988414.jpg",
+    "static/media/logo.jpg": "/react-jaffna-bowling-center/static/media/logo.3baf2db64551687d6e74.jpg",
+    "static/media/table-tennis.jpg": "/react-jaffna-bowling-center/static/media/table-tennis.e57c9707b9c700f2eac6.jpg",
+    "static/media/bowling.png": "/react-jaffna-bowling-center/static/media/bowling.562f651d1ce43c5e7367.png",
+    "index.html": "/react-jaffna-bowling-center/index.html",
+    "main.f4fb9d88.css.map": "/react-jaffna-bowling-center/static/css/main.f4fb9d88.css.map",
+    "main.41b6f241.js.map": "/react-jaffna-bowling-center/static/js/main.41b6f241.js.map",
+    "787.fc7a0df7.chunk.js.map": "/react-jaffna-bowling-center/static/js/787.fc7a0df7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4fb9d88.css",
+    "static/js/main.41b6f241.js"
+  ]
+}
