@@ -1,5 +1,7 @@
 import "./bookslotcontainer.scss";
 import badminton from "../../assets/badminton.jpg";
+import { IconContext } from "react-icons";
+import * as FaIcons from "react-icons/fa";
 
 function pad(num) {
   num = num.toString();
@@ -44,14 +46,18 @@ const BookSlotContainer = () => {
       </div>
 
       <div className="bookslot-container pt-3 pb-3 bg-theme-orange">
-        <div className="time-slots">
+        <div className="d-flex flex-row jc-center">
           <h3>Time Slots</h3>
         </div>
         <div className="court-slots">
-          <div className="d-flex flex-row jc-spacearound">
-            <span>{"<"}</span>
-            <h3>Court 1/3</h3>
-            <span>{">"}</span>
+          <div className="d-flex flex-row jc-center">
+            <IconContext.Provider
+              value={{ size:'2rem' }}
+            >
+              <FaIcons.FaChevronCircleLeft />
+              <h3 className="ml-20 mr-20">Court 1/3</h3>
+              <FaIcons.FaChevronCircleRight />
+            </IconContext.Provider>
           </div>
         </div>
       </div>
