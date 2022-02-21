@@ -4,6 +4,12 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  
+  input{
+    width: 100% !important;
+    height: 100% !important;
+    font-size: 1.2rem;
+  }
 
   ul li{
       list-style: none;

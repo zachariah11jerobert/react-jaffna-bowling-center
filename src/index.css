@@ -108,3 +108,7 @@ code {
 .img-wrap {
   width: 100% !important;
 }
+
+.h-40{
+  height: 40px !important;
+}
