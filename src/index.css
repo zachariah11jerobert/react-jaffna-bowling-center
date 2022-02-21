@@ -72,6 +72,15 @@ code {
 .mr-20 {
   margin-right: 20px !important;
 }
+
+.pt-3 {
+  padding-top: 3px !important;
+}
+
+.pb-3 {
+  padding-bottom: 3px !important;
+}
+
 .pr-10 {
   padding-right: 10px;
 }
@@ -81,13 +90,17 @@ code {
 }
 
 .bg-theme-red {
-  background-color: #ed1b24;
+  background-color: #ed1b24 !important;
 }
 
 .bg-theme-orange {
-  background-color: #f9a83d;
+  background-color: #f9a83d !important;
 }
 
-.bg-gray{
+.bg-gray {
   background-color: #e7e8ea;
+}
+
+.img-wrap {
+  width: 100% !important;
 }
