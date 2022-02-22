@@ -42,15 +42,26 @@ function pad(num) {
 
 const TimeSlots = () => {
   return (
-    <ul>
-      {[...Array(16)].map((e, i) => {
-        return (
-          <li key={i} className="bg-gray mt-2 slot-container fw-500">
-            {pad(6 + i)} - {pad(7 + i)} {6 + i > 11 ? "PM" : "AM"}
-          </li>
-        );
-      })}
-    </ul>
+    <IconContext.Provider value={{ size: "1.2rem" }}>
+      <ul>
+        {[...Array(16)].map((e, i) => {
+          return (
+            <li
+              key={i}
+              className="d-flex flex-row jc-space-around al-center bg-gray mt-2  slot-container fw-500"
+            >
+              <span>
+                <FaIcons.FaClock />
+              </span>
+              <span>
+                {" "}
+                {pad(6 + i)} - {pad(7 + i)} {6 + i > 11 ? "PM" : "AM"}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </IconContext.Provider>
   );
 };
 
@@ -61,7 +72,7 @@ const Court = () => {
         return (
           <li
             key={i}
-            className="d-flex flex-row jc-center bg-gray mt-2 ml-2 slot-container-court"
+            className="d-flex flex-row jc-center al-center bg-gray mt-2 ml-2 slot-container-court"
           >
             {slot.bookStatus == "e" ? (
               <button className="btn-book bg-black">{slot.bookText}</button>
@@ -85,13 +96,13 @@ const BookSlotContainer = () => {
 
         <div className="bookslot-container">
           <div className="time-slots">
-            <div className="h-40 pt-3 pb-3 bg-theme-orange">
+            <div className="d-flex flex-row jc-center al-center h-40 pt-3 pb-3 bg-theme-orange">
               <FaIcons.FaCalendar /> ( 2022 - feb - 01)
             </div>
             <TimeSlots />
           </div>
           <div className="court-slots">
-            <div className="h-40  pt-3 pb-3 d-flex flex-row jc-center bg-theme-orange">
+            <div className="d-flex flex-row jc-center al-center h-40  pt-3 pb-3 bg-theme-orange">
               <FaIcons.FaChevronCircleLeft />
               <h3 className="ml-20 mr-20">Court 1/3</h3>
               <FaIcons.FaChevronCircleRight />

@@ -39,6 +39,10 @@ code {
   justify-content: flex-end;
 }
 
+.al-center{
+  align-items: center !important;
+}
+
 .flex-2 {
   flex: 0.2;
 }
