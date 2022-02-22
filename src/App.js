@@ -23,7 +23,7 @@ function App() {
 
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="booknow" element={<BookNow />} />
+          <Route path="booknow/:game" element={<BookNow />} />
 
           <Route path="register" element={<Register />} />
         </Route>
