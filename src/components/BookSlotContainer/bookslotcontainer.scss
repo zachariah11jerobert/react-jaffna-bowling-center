@@ -4,15 +4,15 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  
-  input{
+
+  input {
     width: 100% !important;
     height: 100% !important;
     font-size: 1.2rem;
   }
 
-  ul li{
-      list-style: none;
+  ul li {
+    list-style: none;
   }
 
   .slot-container {
@@ -25,10 +25,10 @@
   }
 
   .time-slots {
-    flex: 0.3;
+    flex: 0.5;
   }
 
   .court-slots {
-    flex: 0.7;
+    flex: 0.5;
   }
 }

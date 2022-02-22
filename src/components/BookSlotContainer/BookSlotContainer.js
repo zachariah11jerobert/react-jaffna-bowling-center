@@ -4,22 +4,22 @@ import { IconContext } from "react-icons";
 import * as FaIcons from "react-icons/fa";
 
 const slots = [
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'c',bookText:'Confirmed'},
-  {bookStatus:'ca',bookText:'Cancelled'},
-  {bookStatus:'r',bookText:'Reserved'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
-  {bookStatus:'e',bookText:'Book Now'},
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "c", bookText: "Confirmed" },
+  { bookStatus: "ca", bookText: "Cancelled" },
+  { bookStatus: "r", bookText: "Reserved" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
+  { bookStatus: "e", bookText: "Book Now" },
 ];
 
 function todayDate() {
@@ -45,8 +45,8 @@ const TimeSlots = () => {
     <ul>
       {[...Array(16)].map((e, i) => {
         return (
-          <li key={i} className="bg-gray mt-2 slot-container">
-            {pad(6 + i)} - {pad(7 + i)}
+          <li key={i} className="bg-gray mt-2 slot-container fw-500">
+            {pad(6 + i)} - {pad(7 + i)} {6 + i > 11 ? "PM" : "AM"}
           </li>
         );
       })}
@@ -59,8 +59,15 @@ const Court = () => {
     <ul>
       {slots.map((slot, i) => {
         return (
-          <li key={i} className="bg-gray mt-2 ml-2 slot-container-court">
-            {slot.bookText}
+          <li
+            key={i}
+            className="d-flex flex-row jc-center bg-gray mt-2 ml-2 slot-container-court"
+          >
+            {slot.bookStatus == "e" ? (
+              <button className="btn-book bg-black">{slot.bookText}</button>
+            ) : (
+              <span> {slot.bookText}</span>
+            )}
           </li>
         );
       })}
@@ -71,29 +78,27 @@ const Court = () => {
 const BookSlotContainer = () => {
   return (
     <>
-    <IconContext.Provider value={{ size: "2rem" }}>
-      <div>
-        <img src={badminton} className="img-wrap" />
-      </div>
-
-      <div className="bookslot-container">
-        <div className="time-slots">
-          <div className="h-40 pt-3 pb-3 bg-theme-orange">
-          <FaIcons.FaCalendar />
-          </div>
-          <TimeSlots />
+      <IconContext.Provider value={{ size: "2rem" }}>
+        <div>
+          <img src={badminton} className="img-wrap" />
         </div>
-        <div className="court-slots">
-          <div className="h-40  pt-3 pb-3 d-flex flex-row jc-center bg-theme-orange">
-            
+
+        <div className="bookslot-container">
+          <div className="time-slots">
+            <div className="h-40 pt-3 pb-3 bg-theme-orange">
+              <FaIcons.FaCalendar /> ( 2022 - feb - 01)
+            </div>
+            <TimeSlots />
+          </div>
+          <div className="court-slots">
+            <div className="h-40  pt-3 pb-3 d-flex flex-row jc-center bg-theme-orange">
               <FaIcons.FaChevronCircleLeft />
               <h3 className="ml-20 mr-20">Court 1/3</h3>
               <FaIcons.FaChevronCircleRight />
-           
+            </div>
+            <Court />
           </div>
-          <Court />
         </div>
-      </div>
       </IconContext.Provider>
     </>
   );

@@ -22,14 +22,14 @@ code {
 }
 
 .flex-row {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 .flex-column {
   flex-direction: column;
 }
 
 .jc-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .jc-spacearound {
@@ -109,6 +109,23 @@ code {
   width: 100% !important;
 }
 
-.h-40{
+.h-40 {
   height: 40px !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.btn-book {
+  width: 150px !important;
+  height: 30px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px !important;
+  color: #fff !important;
+}
+
+.bg-black {
+  background-color: #000;
 }
