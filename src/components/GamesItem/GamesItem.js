@@ -10,7 +10,7 @@ const GamesItem = ({ image, info, bookingLink }) => {
           <h3>{info}</h3>
         </div>
         <div className="game-top-right pr-10">
-          <h3>More Info</h3>
+          <Link to={`/gallery`}>More Info</Link>
         </div>
       </div>
       <div>

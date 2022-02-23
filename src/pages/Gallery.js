@@ -1,18 +1,28 @@
+import badmintonCourt1 from "../assets/badminton_court1.jpg";
+import badmintonCourt2 from "../assets/badminton_court2.jpg";
+import badmintonCourt3 from "../assets/badminton_court3.jpg";
+import badmintonCourt4 from "../assets/badminton_court4.jpg";
+import badmintonCourt5 from "../assets/badminton_court5.jpg";
+
 function Gallery() {
-    return (
-      <div className="d-flex flex-row">
-          <div className="flex-2 d-flex flex-column">
-              <span>Building Area</span>
-              <span>Badminton Area</span>
-              <span>Table Tennis Area</span>
-              <span>Bowling Area</span>
-          </div>
-          <div className="flex-8">
-              images gallery goes here
-          </div>
+  return (
+    <div>
+        <div>
+            <h3>Badminton Area</h3>
+            <ul>
+                <li>3 courts</li>
+                <li>Carpetted Floor</li>
+            </ul>
+        </div>
+      <div>
+        <img src={badmintonCourt1} className="img-wrap" />
+        <img src={badmintonCourt2} className="img-wrap" />
+        <img src={badmintonCourt3} className="img-wrap" />
+        <img src={badmintonCourt4} className="img-wrap" />
+        <img src={badmintonCourt5} className="img-wrap" />
       </div>
-    );
-  }
-  
-  export default Gallery;
-  
+    </div>
+  );
+}
+
+export default Gallery;

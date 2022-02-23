@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+.container{
+  max-width: 440px !important;
+}
+
 .d-flex {
   display: flex;
 }
