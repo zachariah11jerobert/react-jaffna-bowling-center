@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/react-jaffna-bowling-center/static/css/main.f4fb9d88.css",
-    "main.js": "/react-jaffna-bowling-center/static/js/main.41b6f241.js",
-    "static/js/787.fc7a0df7.chunk.js": "/react-jaffna-bowling-center/static/js/787.fc7a0df7.chunk.js",
-    "static/media/badminton.jpg": "/react-jaffna-bowling-center/static/media/badminton.7152438495f213988414.jpg",
-    "static/media/logo.jpg": "/react-jaffna-bowling-center/static/media/logo.3baf2db64551687d6e74.jpg",
-    "static/media/table-tennis.jpg": "/react-jaffna-bowling-center/static/media/table-tennis.e57c9707b9c700f2eac6.jpg",
-    "static/media/bowling.png": "/react-jaffna-bowling-center/static/media/bowling.562f651d1ce43c5e7367.png",
-    "index.html": "/react-jaffna-bowling-center/index.html",
-    "main.f4fb9d88.css.map": "/react-jaffna-bowling-center/static/css/main.f4fb9d88.css.map",
-    "main.41b6f241.js.map": "/react-jaffna-bowling-center/static/js/main.41b6f241.js.map",
-    "787.fc7a0df7.chunk.js.map": "/react-jaffna-bowling-center/static/js/787.fc7a0df7.chunk.js.map"
+    "main.css": "/static/css/main.4893154e.css",
+    "main.js": "/static/js/main.5b157e18.js",
+    "static/js/787.fc7a0df7.chunk.js": "/static/js/787.fc7a0df7.chunk.js",
+    "static/media/kids-area.jpg": "/static/media/kids-area.17539a819b439f8a12d1.jpg",
+    "static/media/badminton.jpg": "/static/media/badminton.7152438495f213988414.jpg",
+    "static/media/badminton_court1.jpg": "/static/media/badminton_court1.f9d088ec5654eb1532ab.jpg",
+    "static/media/logo.jpg": "/static/media/logo.3baf2db64551687d6e74.jpg",
+    "static/media/table-tennis.jpg": "/static/media/table-tennis.e57c9707b9c700f2eac6.jpg",
+    "static/media/chess.jpeg": "/static/media/chess.073105863a01087021d5.jpeg",
+    "static/media/badminton_court4.jpg": "/static/media/badminton_court4.b24a4d75342c3fd4806b.jpg",
+    "static/media/badminton_court5.jpg": "/static/media/badminton_court5.bfedbcd2474942232866.jpg",
+    "static/media/badminton_court2.jpg": "/static/media/badminton_court2.dce668c89ff8774faa56.jpg",
+    "static/media/badminton_court3.jpg": "/static/media/badminton_court3.f4ef4ee07a5057c282a9.jpg",
+    "static/media/bowling.png": "/static/media/bowling.562f651d1ce43c5e7367.png",
+    "index.html": "/index.html",
+    "main.4893154e.css.map": "/static/css/main.4893154e.css.map",
+    "main.5b157e18.js.map": "/static/js/main.5b157e18.js.map",
+    "787.fc7a0df7.chunk.js.map": "/static/js/787.fc7a0df7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4fb9d88.css",
-    "static/js/main.41b6f241.js"
+    "static/css/main.4893154e.css",
+    "static/js/main.5b157e18.js"
   ]
 }
