@@ -89,7 +89,7 @@ const BookSlotContainer = () => {
     <>
       <IconContext.Provider value={{ size: "2rem" }}>
         <div>
-          <img src={badminton} className="img-wrap" />
+          <img src={badminton} className="img-wrap" alt="baminton" />
         </div>
 
         <div className="bookslot-container">

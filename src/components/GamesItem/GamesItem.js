@@ -10,17 +10,17 @@ const GamesItem = ({ image, info, bookingLink }) => {
           <h3>{info}</h3>
         </div>
         <div className="game-top-right pr-10">
-          <Link to={`/gallery`}>More Info</Link>
+          <Link to={`/gallery`} className="link-title">More Info</Link>
         </div>
       </div>
       <div>
-        <img src={image} />
+        <img src={image} alt="games item"/>
       </div>
 
       <div className="game-bottom">
         {bookingLink && (
           <span className="tiles bg-theme-orange">
-            <Link to={`/booknow/${bookingLink}`}>Book Now</Link>
+            <Link to={`/booknow/${bookingLink}`} className="link-title">Book Now</Link>
           </span>
         )}
       </div>
