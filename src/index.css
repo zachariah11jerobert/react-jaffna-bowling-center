@@ -126,10 +126,12 @@ code {
 }
 
 .btn-book {
-  width: 150px !important;
+  width: auto !important;
   height: 30px !important;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
   border-radius: 15px !important;
   color: #fff !important;
 }

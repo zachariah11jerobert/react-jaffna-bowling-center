@@ -1,5 +1,5 @@
 import React from "react";
-import BookSlotContainer from "../components/BookSlotContainer/BookSlotContainer";
+import BookSlotContainer from "../components/BookSlotContainer2/BookSlotContainer";
 
 const BookNow = () => {
   return (
