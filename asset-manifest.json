@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4893154e.css",
-    "main.js": "/static/js/main.5b157e18.js",
+    "main.css": "/static/css/main.59216095.css",
+    "main.js": "/static/js/main.d1608c22.js",
     "static/js/787.fc7a0df7.chunk.js": "/static/js/787.fc7a0df7.chunk.js",
     "static/media/kids-area.jpg": "/static/media/kids-area.17539a819b439f8a12d1.jpg",
     "static/media/badminton.jpg": "/static/media/badminton.7152438495f213988414.jpg",
@@ -15,12 +15,12 @@
     "static/media/badminton_court3.jpg": "/static/media/badminton_court3.f4ef4ee07a5057c282a9.jpg",
     "static/media/bowling.png": "/static/media/bowling.562f651d1ce43c5e7367.png",
     "index.html": "/index.html",
-    "main.4893154e.css.map": "/static/css/main.4893154e.css.map",
-    "main.5b157e18.js.map": "/static/js/main.5b157e18.js.map",
+    "main.59216095.css.map": "/static/css/main.59216095.css.map",
+    "main.d1608c22.js.map": "/static/js/main.d1608c22.js.map",
     "787.fc7a0df7.chunk.js.map": "/static/js/787.fc7a0df7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4893154e.css",
-    "static/js/main.5b157e18.js"
+    "static/css/main.59216095.css",
+    "static/js/main.d1608c22.js"
   ]
 }
